@@ -6,6 +6,7 @@ const authMiddleware = require("../Middlewares/Authorize");
 const { getCategoriesByCommercant, createCategorie, getOneCategorie, getProductsByCategorie, updateCategorie, deleteCategorie } = require("../controllers/categorieController");
 const { getOneProduct, getProductsByCommercant, createProduct, updateProducts, updateStockProducts, deleteProducts } = require("../controllers/productController");
 
+// Routes pour les commerçants et livreurs
 router.post("/signup", signUpCommercant);
 router.post("/signin", signIn);
 router.get('/verify-token/:token', checkAndGetUserByToken);
@@ -28,11 +29,15 @@ router.patch("/updateStockProduct/:id/stock", authMiddleware.authenticateCommerc
 router.delete("/deleteProduct/:id", authMiddleware.authenticateCommercant,deleteProducts);
 
 //routes relatives au categorie
-
 router.get("/getcategoriesByCommercant", authMiddleware.authenticateCommercant, getCategoriesByCommercant);
 router.post("/createCategories", authMiddleware.authenticateCommercant, createCategorie);
 router.get("/getOnecategories/:id", authMiddleware.authenticateCommercant, getOneCategorie);
 router.get("/getOneProductByCategories/:id/products", authMiddleware.authenticateCommercant, getProductsByCategorie);
 router.put("/updateCategories/:id",authMiddleware.authenticateCommercant, updateCategorie);
 router.delete("/deleteCategories/:id", authMiddleware.authenticateCommercant, deleteCategorie);
+
+// Routes pour les clients
+const clientRoutes = require("./clientRoutes");
+router.use("/client", clientRoutes);
+
 module.exports = router;

@@ -134,3 +134,30 @@
   "type": "CRITICAL_ERROR"
 }
 
+[2025-08-30T01:25:23.708] {
+  "error": {
+    "message": "Route /api/client/products non trouvée",
+    "stack": "Error: Route /api/client/products non trouvée\n    at /Users/macbookretina/PAPS PROJECT/backend/index.js:75:19\n    at Layer.handleRequest (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:342:13)\n    at /Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:582:12)\n    at next (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:291:5)\n    at /Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:688:15\n    at next (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:276:14)\n    at Function.handle (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:186:3)\n    at router (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/client/products",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "host": "localhost:3001",
+      "user-agent": "curl/8.7.1",
+      "accept": "*/*"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-08-30T01:25:23.708Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-08-30T01:25:23.707Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+

@@ -2128,3 +2128,2037 @@
   "responseSize": 565,
   "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MW"
 }
+[2025-08-30T00:46:25.735] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-30T00:46:25.733Z","port":"3001","env":"development","nodeVersion":"v22.16.0","uptime":1.05710583}
+[2025-08-30T01:04:18.974] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-30T01:04:18.973Z","port":"3001","env":"development","nodeVersion":"v22.16.0","uptime":1.272129146}
+[2025-08-30T01:04:38.110] [INFO] success - {"operation":"HOME_PAGE_ACCESS","user":"Système","timestamp":"2025-08-30T01:04:38.110Z","ip":"::1","userAgent":"curl/8.7.1"}
+[2025-08-30T01:04:38.111] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T01:04:38.111Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responseData": {
+    "message": "API is running"
+  }
+}
+[2025-08-30T01:04:38.112] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T01:04:38.112Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responsePreview": "{\"message\":\"API is running\"}"
+}
+[2025-08-30T01:25:05.158] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-30T01:25:05.153Z","port":"3001","env":"development","nodeVersion":"v22.16.0","uptime":0.859318277}
+[2025-08-30T01:25:23.711] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 404,
+  "duration": "7ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T01:25:23.711Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1222,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/client/products non trouvée",
+      "status": 404,
+      "timestamp": "2025-08-30T01:25:23.711Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/client/products non trouvée\n    at /Users/macbookretina/PAPS PROJECT/backend/index.js:75:19\n    at Layer.handleRequest (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:342:13)\n    at /Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:582:12)\n    at next (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:291:5)\n    at /Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:688:15\n    at next (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:276:14)\n    at Function.handle (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:186:3)\n    at router (/Users/macbookretina/PAPS PROJECT/backend/node_modules/router/index.js:60:12)",
+      "url": "/api/client/products",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-08-30T01:25:23.712] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 404,
+  "duration": "8ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T01:25:23.712Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1222,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/client/products non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-08-30T01:26:12.697] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-30T01:26:12.695Z","port":"3001","env":"development","nodeVersion":"v22.16.0","uptime":1.048702175}
+[2025-08-30T01:26:26.147] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 500,
+  "duration": "10011ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T01:26:26.147Z",
+  "query": {},
+  "params": {},
+  "responseSize": 147,
+  "responseData": {
+    "success": false,
+    "message": "Erreur lors de la récupération des produits",
+    "error": "Operation `produits.find()` buffering timed out after 10000ms"
+  }
+}
+[2025-08-30T01:26:26.148] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 500,
+  "duration": "10012ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T01:26:26.148Z",
+  "query": {},
+  "params": {},
+  "responseSize": 147,
+  "responsePreview": "{\"success\":false,\"message\":\"Erreur lors de la récupération des produits\",\"error\":\"Operation `produit"
+}
+[2025-08-30T01:30:13.379] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-30T01:30:13.378Z","port":"3001","env":"development","nodeVersion":"v22.16.0","uptime":0.903975687}
+[2025-08-30T11:01:10.643] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-30T11:01:10.642Z","port":"5000","env":"development","nodeVersion":"v22.16.0","uptime":1.04818696}
+[2025-08-30T11:01:17.099] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "211ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T11:01:17.099Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc37830725a959aeae3dc",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9a3bd0391eee35e3fe5",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9f2ce342446cadb4843",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bca06ce342446cadb4847",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd0c751f52f52f96c9394",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd179d9f1551249f37386",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "68ae0524cfb5e908a0421acb",
+        "nom": "khessal",
+        "prix": 1500,
+        "image": "dhdfghdfgdf",
+        "stock": 78,
+        "categorie_id": {
+          "_id": "68ae04bfcfb5e908a0421ac8",
+          "nom": "Cosmetique"
+        },
+        "__v": 0
+      }
+    ],
+    "message": "Produits récupérés avec succès"
+  }
+}
+[2025-08-30T11:01:17.101] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "215ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T11:01:17.101Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc37830725a959aeae3dc\",\"nom\":\"iPhone 15 Pro\",\"prix\":1299.99,\"imag"
+}
+[2025-08-30T12:56:39.112] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/register",
+  "status": 201,
+  "duration": "1813ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.112Z",
+  "body": {
+    "prenom": "Jean",
+    "nom": "Dupont",
+    "telephone": "0123456789",
+    "email": "jean.dupont@test.com",
+    "password": "password123",
+    "adress": "123 Rue de la Paix, 75001 Paris"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 476,
+  "responseData": {
+    "message": "Compte client créé avec succès.",
+    "user": {
+      "_id": "68b2f5073dfe9fb9828220c5",
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean.dupont@test.com",
+      "role": "client",
+      "client_id": "68b2f5063dfe9fb9828220c3"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjJmNTA3M2RmZTlmYjk4MjgyMjBjNSIsImVtYWlsIjoiamVhbi5kdXBvbnRAdGVzdC5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzU2NTU4NTk5LCJleHAiOjE3NTcxNjMzOTl9.12sBx5ZZzChDpqU48VNuKwJYlgiGj9o9gJidDbiIjic"
+  }
+}
+[2025-08-30T12:56:39.113] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/register",
+  "status": 201,
+  "duration": "1814ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.113Z",
+  "body": {
+    "prenom": "Jean",
+    "nom": "Dupont",
+    "telephone": "0123456789",
+    "email": "jean.dupont@test.com",
+    "password": "password123",
+    "adress": "123 Rue de la Paix, 75001 Paris"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 476,
+  "responsePreview": "{\"message\":\"Compte client créé avec succès.\",\"user\":{\"_id\":\"68b2f5073dfe9fb9828220c5\",\"prenom\":\"Jean"
+}
+[2025-08-30T12:56:39.286] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "163ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.286Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "user": {
+      "_id": "68b2f5073dfe9fb9828220c5",
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean.dupont@test.com",
+      "role": "client",
+      "client_id": "68b2f5063dfe9fb9828220c3"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjJmNTA3M2RmZTlmYjk4MjgyMjBjNSIsImVtYWlsIjoiamVhbi5kdXBvbnRAdGVzdC5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzU2NTU4NTk5LCJleHAiOjE3NTcxNjMzOTl9.12sBx5ZZzChDpqU48VNuKwJYlgiGj9o9gJidDbiIjic"
+  }
+}
+[2025-08-30T12:56:39.286] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "163ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.286Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"user\":{\"_id\":\"68b2f5073dfe9fb9828220c5\",\"prenom\":\"Jean\",\"nom\":\"Dupo"
+}
+[2025-08-30T12:56:39.510] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "219ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.510Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc37830725a959aeae3dc",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9a3bd0391eee35e3fe5",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9f2ce342446cadb4843",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bca06ce342446cadb4847",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd0c751f52f52f96c9394",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd179d9f1551249f37386",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "68ae0524cfb5e908a0421acb",
+        "nom": "khessal",
+        "prix": 1500,
+        "image": "dhdfghdfgdf",
+        "stock": 78,
+        "categorie_id": {
+          "_id": "68ae04bfcfb5e908a0421ac8",
+          "nom": "Cosmetique"
+        },
+        "__v": 0
+      }
+    ],
+    "message": "Produits récupérés avec succès"
+  }
+}
+[2025-08-30T12:56:39.511] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "221ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.511Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc37830725a959aeae3dc\",\"nom\":\"iPhone 15 Pro\",\"prix\":1299.99,\"imag"
+}
+[2025-08-30T12:56:39.596] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/categories",
+  "status": 200,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.596Z",
+  "query": {},
+  "params": {},
+  "responseSize": 213,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      }
+    ],
+    "message": "Catégories récupérées avec succès"
+  }
+}
+[2025-08-30T12:56:39.597] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/categories",
+  "status": 200,
+  "duration": "83ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T12:56:39.597Z",
+  "query": {},
+  "params": {},
+  "responseSize": 213,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\"nom\":\"Électronique & Gadgets\",\"__v\":0},{\""
+}
+[2025-08-30T16:37:43.025] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "1030ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:43.025Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc37830725a959aeae3dc",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9a3bd0391eee35e3fe5",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9f2ce342446cadb4843",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bca06ce342446cadb4847",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd0c751f52f52f96c9394",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd179d9f1551249f37386",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "68ae0524cfb5e908a0421acb",
+        "nom": "khessal",
+        "prix": 1500,
+        "image": "dhdfghdfgdf",
+        "stock": 78,
+        "categorie_id": {
+          "_id": "68ae04bfcfb5e908a0421ac8",
+          "nom": "Cosmetique"
+        },
+        "__v": 0
+      }
+    ],
+    "message": "Produits récupérés avec succès"
+  }
+}
+[2025-08-30T16:37:43.026] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "1032ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:43.026Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc37830725a959aeae3dc\",\"nom\":\"iPhone 15 Pro\",\"prix\":1299.99,\"imag"
+}
+[2025-08-30T16:37:47.063] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "158ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:47.063Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc37830725a959aeae3dc",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9a3bd0391eee35e3fe5",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9f2ce342446cadb4843",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bca06ce342446cadb4847",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd0c751f52f52f96c9394",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd179d9f1551249f37386",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "68ae0524cfb5e908a0421acb",
+        "nom": "khessal",
+        "prix": 1500,
+        "image": "dhdfghdfgdf",
+        "stock": 78,
+        "categorie_id": {
+          "_id": "68ae04bfcfb5e908a0421ac8",
+          "nom": "Cosmetique"
+        },
+        "__v": 0
+      }
+    ],
+    "message": "Produits récupérés avec succès"
+  }
+}
+[2025-08-30T16:37:47.064] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "159ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:47.064Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc37830725a959aeae3dc\",\"nom\":\"iPhone 15 Pro\",\"prix\":1299.99,\"imag"
+}
+[2025-08-30T16:37:51.993] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/categories",
+  "status": 200,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:51.993Z",
+  "query": {},
+  "params": {},
+  "responseSize": 213,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      }
+    ],
+    "message": "Catégories récupérées avec succès"
+  }
+}
+[2025-08-30T16:37:51.993] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/categories",
+  "status": 200,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:51.993Z",
+  "query": {},
+  "params": {},
+  "responseSize": 213,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\"nom\":\"Électronique & Gadgets\",\"__v\":0},{\""
+}
+[2025-08-30T16:37:57.259] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "180ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:57.259Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "user": {
+      "_id": "68b2f5073dfe9fb9828220c5",
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean.dupont@test.com",
+      "role": "client",
+      "client_id": "68b2f5063dfe9fb9828220c3"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjJmNTA3M2RmZTlmYjk4MjgyMjBjNSIsImVtYWlsIjoiamVhbi5kdXBvbnRAdGVzdC5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzU2NTcxODc3LCJleHAiOjE3NTcxNzY2Nzd9.IBpCxtpXMyZZ2ApFAFNp2p64-UyZwf2EJRFKi6viCxU"
+  }
+}
+[2025-08-30T16:37:57.259] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "180ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:37:57.259Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"user\":{\"_id\":\"68b2f5073dfe9fb9828220c5\",\"prenom\":\"Jean\",\"nom\":\"Dupo"
+}
+[2025-08-30T16:38:00.867] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "172ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:38:00.867Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "user": {
+      "_id": "68b2f5073dfe9fb9828220c5",
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean.dupont@test.com",
+      "role": "client",
+      "client_id": "68b2f5063dfe9fb9828220c3"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjJmNTA3M2RmZTlmYjk4MjgyMjBjNSIsImVtYWlsIjoiamVhbi5kdXBvbnRAdGVzdC5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzU2NTcxODgwLCJleHAiOjE3NTcxNzY2ODB9.xdLG7klqAtd36D6jKWLBtF0GHY-jLHyO-nUDHSHZ3fg"
+  }
+}
+[2025-08-30T16:38:00.868] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "173ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:38:00.868Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"user\":{\"_id\":\"68b2f5073dfe9fb9828220c5\",\"prenom\":\"Jean\",\"nom\":\"Dupo"
+}
+[2025-08-30T16:38:04.343] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "171ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:38:04.343Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "user": {
+      "_id": "68b2f5073dfe9fb9828220c5",
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean.dupont@test.com",
+      "role": "client",
+      "client_id": "68b2f5063dfe9fb9828220c3"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjJmNTA3M2RmZTlmYjk4MjgyMjBjNSIsImVtYWlsIjoiamVhbi5kdXBvbnRAdGVzdC5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzU2NTcxODg0LCJleHAiOjE3NTcxNzY2ODR9.GCDBr1BcXTFf6u0zRu3tnZHNY0cMqWrjtQ4LP5VqL9c"
+  }
+}
+[2025-08-30T16:38:04.343] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "171ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:38:04.343Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 461,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"user\":{\"_id\":\"68b2f5073dfe9fb9828220c5\",\"prenom\":\"Jean\",\"nom\":\"Dupo"
+}
+[2025-08-30T16:38:09.726] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/orders",
+  "status": 200,
+  "duration": "178ms",
+  "user": "jean.dupont@test.com (68b2f5073dfe9fb9828220c5)",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:38:09.726Z",
+  "query": {},
+  "params": {},
+  "responseSize": 75,
+  "responseData": {
+    "success": true,
+    "data": [],
+    "message": "Commandes récupérées avec succès"
+  }
+}
+[2025-08-30T16:38:09.727] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/orders",
+  "status": 200,
+  "duration": "179ms",
+  "user": "jean.dupont@test.com (68b2f5073dfe9fb9828220c5)",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-08-30T16:38:09.727Z",
+  "query": {},
+  "params": {},
+  "responseSize": 75,
+  "responsePreview": "{\"success\":true,\"data\":[],\"message\":\"Commandes récupérées avec succès\"}"
+}
+[2025-08-30T16:39:03.549] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/register",
+  "status": 201,
+  "duration": "343ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:03.549Z",
+  "body": {
+    "prenom": "Marie",
+    "nom": "Martin",
+    "telephone": "0987654321",
+    "email": "marie.martin@test.com",
+    "password": "password123",
+    "adress": "456 Avenue des Champs, 75008 Paris"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 480,
+  "responseData": {
+    "message": "Compte client créé avec succès.",
+    "user": {
+      "_id": "68b329273dfe9fb9828220d8",
+      "prenom": "Marie",
+      "nom": "Martin",
+      "telephone": "0987654321",
+      "email": "marie.martin@test.com",
+      "role": "client",
+      "client_id": "68b329273dfe9fb9828220d6"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjMyOTI3M2RmZTlmYjk4MjgyMjBkOCIsImVtYWlsIjoibWFyaWUubWFydGluQHRlc3QuY29tIiwicm9sZSI6ImNsaWVudCIsImlhdCI6MTc1NjU3MTk0MywiZXhwIjoxNzU3MTc2NzQzfQ.K0JW0kvB0SjDKyX__oWJOVxGLnkwdKZk9y_ZPqOYlsk"
+  }
+}
+[2025-08-30T16:39:03.549] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/register",
+  "status": 201,
+  "duration": "343ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:03.549Z",
+  "body": {
+    "prenom": "Marie",
+    "nom": "Martin",
+    "telephone": "0987654321",
+    "email": "marie.martin@test.com",
+    "password": "password123",
+    "adress": "456 Avenue des Champs, 75008 Paris"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 480,
+  "responsePreview": "{\"message\":\"Compte client créé avec succès.\",\"user\":{\"_id\":\"68b329273dfe9fb9828220d8\",\"prenom\":\"Mari"
+}
+[2025-08-30T16:39:03.792] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "233ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:03.792Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 465,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "user": {
+      "_id": "68b329273dfe9fb9828220d8",
+      "prenom": "Marie",
+      "nom": "Martin",
+      "telephone": "0987654321",
+      "email": "marie.martin@test.com",
+      "role": "client",
+      "client_id": "68b329273dfe9fb9828220d6"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjMyOTI3M2RmZTlmYjk4MjgyMjBkOCIsImVtYWlsIjoibWFyaWUubWFydGluQHRlc3QuY29tIiwicm9sZSI6ImNsaWVudCIsImlhdCI6MTc1NjU3MTk0MywiZXhwIjoxNzU3MTc2NzQzfQ.K0JW0kvB0SjDKyX__oWJOVxGLnkwdKZk9y_ZPqOYlsk"
+  }
+}
+[2025-08-30T16:39:03.792] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/login",
+  "status": 200,
+  "duration": "233ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:03.792Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 465,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"user\":{\"_id\":\"68b329273dfe9fb9828220d8\",\"prenom\":\"Marie\",\"nom\":\"Mar"
+}
+[2025-08-30T16:39:03.959] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "158ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:03.959Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc37830725a959aeae3dc",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9a3bd0391eee35e3fe5",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9f2ce342446cadb4843",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bca06ce342446cadb4847",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd0c751f52f52f96c9394",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd179d9f1551249f37386",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "68ae0524cfb5e908a0421acb",
+        "nom": "khessal",
+        "prix": 1500,
+        "image": "dhdfghdfgdf",
+        "stock": 78,
+        "categorie_id": {
+          "_id": "68ae04bfcfb5e908a0421ac8",
+          "nom": "Cosmetique"
+        },
+        "__v": 0
+      }
+    ],
+    "message": "Produits récupérés avec succès"
+  }
+}
+[2025-08-30T16:39:03.959] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "159ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:03.959Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc37830725a959aeae3dc\",\"nom\":\"iPhone 15 Pro\",\"prix\":1299.99,\"imag"
+}
+[2025-08-30T16:39:04.049] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/categories",
+  "status": 200,
+  "duration": "86ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:04.049Z",
+  "query": {},
+  "params": {},
+  "responseSize": 213,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      }
+    ],
+    "message": "Catégories récupérées avec succès"
+  }
+}
+[2025-08-30T16:39:04.050] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/categories",
+  "status": 200,
+  "duration": "87ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:04.050Z",
+  "query": {},
+  "params": {},
+  "responseSize": 213,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\"nom\":\"Électronique & Gadgets\",\"__v\":0},{\""
+}
+[2025-08-30T16:39:04.059] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products/search?q=iPhone",
+  "status": 500,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:04.058Z",
+  "query": {
+    "q": "iPhone"
+  },
+  "params": {
+    "id": "search"
+  },
+  "responseSize": 180,
+  "responseData": {
+    "success": false,
+    "message": "Erreur lors de la récupération du produit",
+    "error": "Cast to ObjectId failed for value \"search\" (type string) at path \"_id\" for model \"Produit\""
+  }
+}
+[2025-08-30T16:39:04.059] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products/search?q=iPhone",
+  "status": 500,
+  "duration": "6ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:04.059Z",
+  "query": {
+    "q": "iPhone"
+  },
+  "params": {
+    "id": "search"
+  },
+  "responseSize": 180,
+  "responsePreview": "{\"success\":false,\"message\":\"Erreur lors de la récupération du produit\",\"error\":\"Cast to ObjectId fai"
+}
+[2025-08-30T16:39:23.761] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/register",
+  "status": 409,
+  "duration": "78ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:23.761Z",
+  "body": {
+    "prenom": "Marie",
+    "nom": "Martin",
+    "telephone": "0987654321",
+    "email": "marie.martin@test.com",
+    "password": "password123",
+    "adress": "456 Avenue des Champs, 75008 Paris"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 44,
+  "responseData": {
+    "message": "Cet email est déjà utilisé."
+  }
+}
+[2025-08-30T16:39:23.761] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/register",
+  "status": 409,
+  "duration": "78ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-08-30T16:39:23.761Z",
+  "body": {
+    "prenom": "Marie",
+    "nom": "Martin",
+    "telephone": "0987654321",
+    "email": "marie.martin@test.com",
+    "password": "password123",
+    "adress": "456 Avenue des Champs, 75008 Paris"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 44,
+  "responsePreview": "{\"message\":\"Cet email est déjà utilisé.\"}"
+}
+[2025-08-30T16:39:26.625] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "83ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:39:26.625Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:39:26.625] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "83ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:39:26.625Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-08-30T16:39:31.616] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:39:31.616Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:39:31.616] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:39:31.616Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-08-30T16:39:32.227] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "74ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:39:32.227Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:39:32.227] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "74ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:39:32.227Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-08-30T16:40:26.005] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "371ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:40:26.005Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:40:26.006] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "372ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:40:26.006Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-08-30T16:40:26.933] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "81ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:40:26.933Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:40:26.933] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:40:26.933Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-08-30T16:40:27.730] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "80ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:40:27.730Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:40:27.730] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "80ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:40:27.730Z",
+  "body": {
+    "email": "marie.martin@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-08-30T16:42:02.922] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "75ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:42:02.922Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Accès réservé aux commerçants."
+  }
+}
+[2025-08-30T16:42:02.923] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "76ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-30T16:42:02.923Z",
+  "body": {
+    "email": "jean.dupont@test.com",
+    "password": "password123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Accès réservé aux commerçants.\"}"
+}
+[2025-09-01T00:43:06.300] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-01T00:43:06.299Z","port":"5000","env":"development","nodeVersion":"v22.16.0","uptime":1.025001592}
+[2025-09-01T00:56:27.166] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-01T00:56:27.164Z","port":"5000","env":"development","nodeVersion":"v22.16.0","uptime":1.130834811}
+[2025-09-01T00:56:31.219] [INFO] success - {"operation":"HOME_PAGE_ACCESS","user":"Système","timestamp":"2025-09-01T00:56:31.219Z","ip":"::1","userAgent":"curl/8.7.1"}
+[2025-09-01T00:56:31.220] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-09-01T00:56:31.220Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responseData": {
+    "message": "API is running"
+  }
+}
+[2025-09-01T00:56:31.221] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-09-01T00:56:31.221Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responsePreview": "{\"message\":\"API is running\"}"
+}
+[2025-09-01T00:56:34.892] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0",
+  "status": 404,
+  "duration": "84ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-09-01T00:56:34.892Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 81,
+  "responseData": {
+    "success": false,
+    "message": "Boutique non trouvée ou lien d'invitation invalide"
+  }
+}
+[2025-09-01T00:56:34.892] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0",
+  "status": 404,
+  "duration": "85ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-09-01T00:56:34.892Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 81,
+  "responsePreview": "{\"success\":false,\"message\":\"Boutique non trouvée ou lien d'invitation invalide\"}"
+}
+[2025-09-01T00:56:35.007] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0",
+  "status": 404,
+  "duration": "75ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-09-01T00:56:35.007Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 81,
+  "responseData": {
+    "success": false,
+    "message": "Boutique non trouvée ou lien d'invitation invalide"
+  }
+}
+[2025-09-01T00:56:35.010] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0",
+  "status": 404,
+  "duration": "78ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "curl/8.7.1",
+  "timestamp": "2025-09-01T00:56:35.010Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 81,
+  "responsePreview": "{\"success\":false,\"message\":\"Boutique non trouvée ou lien d'invitation invalide\"}"
+}
+[2025-09-01T00:57:54.604] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0",
+  "status": 404,
+  "duration": "90ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.604Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 81,
+  "responseData": {
+    "success": false,
+    "message": "Boutique non trouvée ou lien d'invitation invalide"
+  }
+}
+[2025-09-01T00:57:54.605] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0",
+  "status": 404,
+  "duration": "91ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.605Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 81,
+  "responsePreview": "{\"success\":false,\"message\":\"Boutique non trouvée ou lien d'invitation invalide\"}"
+}
+[2025-09-01T00:57:54.654] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/invalid-id",
+  "status": 400,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.654Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "invalid-id"
+  },
+  "responseSize": 53,
+  "responseData": {
+    "success": false,
+    "message": "ID de boutique invalide"
+  }
+}
+[2025-09-01T00:57:54.655] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/invalid-id",
+  "status": 400,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.655Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "invalid-id"
+  },
+  "responseSize": 53,
+  "responsePreview": "{\"success\":false,\"message\":\"ID de boutique invalide\"}"
+}
+[2025-09-01T00:57:54.814] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0/products",
+  "status": 404,
+  "duration": "78ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.814Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 51,
+  "responseData": {
+    "success": false,
+    "message": "Boutique non trouvée"
+  }
+}
+[2025-09-01T00:57:54.814] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0/products",
+  "status": 404,
+  "duration": "78ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.814Z",
+  "query": {},
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 51,
+  "responsePreview": "{\"success\":false,\"message\":\"Boutique non trouvée\"}"
+}
+[2025-09-01T00:57:54.892] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0/products/search?q=test",
+  "status": 404,
+  "duration": "69ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.891Z",
+  "query": {
+    "q": "test"
+  },
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 51,
+  "responseData": {
+    "success": false,
+    "message": "Boutique non trouvée"
+  }
+}
+[2025-09-01T00:57:54.892] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/boutiques/64f8a1b2c3d4e5f6a7b8c9d0/products/search?q=test",
+  "status": 404,
+  "duration": "70ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.892Z",
+  "query": {
+    "q": "test"
+  },
+  "params": {
+    "boutiqueId": "64f8a1b2c3d4e5f6a7b8c9d0"
+  },
+  "responseSize": 51,
+  "responsePreview": "{\"success\":false,\"message\":\"Boutique non trouvée\"}"
+}
+[2025-09-01T00:57:54.990] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/orders/guest",
+  "status": 404,
+  "duration": "75ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.990Z",
+  "body": {
+    "boutique_id": "64f8a1b2c3d4e5f6a7b8c9d0",
+    "client_info": {
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean@test.com",
+      "adresse": "123 Rue de la Paix, Paris"
+    },
+    "items": [
+      {
+        "produit_id": "64f8a1b2c3d4e5f6a7b8c9d1",
+        "quantity": 2,
+        "prix_unitaire": 15.99
+      }
+    ],
+    "total": 31.98
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 51,
+  "responseData": {
+    "success": false,
+    "message": "Boutique non trouvée"
+  }
+}
+[2025-09-01T00:57:54.991] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/orders/guest",
+  "status": 404,
+  "duration": "76ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.991Z",
+  "body": {
+    "boutique_id": "64f8a1b2c3d4e5f6a7b8c9d0",
+    "client_info": {
+      "prenom": "Jean",
+      "nom": "Dupont",
+      "telephone": "0123456789",
+      "email": "jean@test.com",
+      "adresse": "123 Rue de la Paix, Paris"
+    },
+    "items": [
+      {
+        "produit_id": "64f8a1b2c3d4e5f6a7b8c9d1",
+        "quantity": 2,
+        "prix_unitaire": 15.99
+      }
+    ],
+    "total": 31.98
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 51,
+  "responsePreview": "{\"success\":false,\"message\":\"Boutique non trouvée\"}"
+}
+[2025-09-01T00:57:54.996] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/orders/guest",
+  "status": 400,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.996Z",
+  "body": {
+    "boutique_id": "64f8a1b2c3d4e5f6a7b8c9d0",
+    "items": [],
+    "total": 0
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 63,
+  "responseData": {
+    "success": false,
+    "message": "Données de commande incomplètes"
+  }
+}
+[2025-09-01T00:57:54.997] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/client/orders/guest",
+  "status": 400,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:54.997Z",
+  "body": {
+    "boutique_id": "64f8a1b2c3d4e5f6a7b8c9d0",
+    "items": [],
+    "total": 0
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 63,
+  "responsePreview": "{\"success\":false,\"message\":\"Données de commande incomplètes\"}"
+}
+[2025-09-01T00:57:55.205] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "200ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:55.205Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responseData": {
+    "success": true,
+    "data": [
+      {
+        "_id": "688bc37830725a959aeae3dc",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9a3bd0391eee35e3fe5",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bc9f2ce342446cadb4843",
+        "nom": "iPhone 15 Pro",
+        "prix": 1299.99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bca06ce342446cadb4847",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 25,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd0c751f52f52f96c9394",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "688bd179d9f1551249f37386",
+        "nom": "iPhone 15 Pro",
+        "prix": 99,
+        "image": "iphone15pro.jpg",
+        "stock": 20,
+        "categorie_id": {
+          "_id": "688bc2eb30725a959aeae3d4",
+          "nom": "Électronique & Gadgets"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "68ae0524cfb5e908a0421acb",
+        "nom": "khessal",
+        "prix": 1500,
+        "image": "dhdfghdfgdf",
+        "stock": 78,
+        "categorie_id": {
+          "_id": "68ae04bfcfb5e908a0421ac8",
+          "nom": "Cosmetique"
+        },
+        "__v": 0
+      }
+    ],
+    "message": "Produits récupérés avec succès"
+  }
+}
+[2025-09-01T00:57:55.211] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/client/products",
+  "status": 200,
+  "duration": "208ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "axios/1.11.0",
+  "timestamp": "2025-09-01T00:57:55.211Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1424,
+  "responsePreview": "{\"success\":true,\"data\":[{\"_id\":\"688bc37830725a959aeae3dc\",\"nom\":\"iPhone 15 Pro\",\"prix\":1299.99,\"imag"
+}
