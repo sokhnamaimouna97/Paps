@@ -11,6 +11,7 @@ import { ArrowLeft, Plus, Minus, ShoppingCart, Star, Filter, Search, MapPin, Pho
 import { toast } from 'sonner';
 import { projectId, publicAnonKey } from '../utils/supabase/info';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import { useNavigate } from 'react-router-dom';
 
 interface Product {
   id: string;
@@ -52,7 +53,11 @@ export default function CustomerStore({ merchantId, onBack, onMerchantAccess }: 
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const [isOrderPlaced, setIsOrderPlaced] = useState(false);
   const [orderId, setOrderId] = useState('');
-
+ const navigate = useNavigate();
+  
+  const handleBack = () => {
+    navigate('/'); // ou navigate(-1) pour revenir à la page précédente
+  };
   const [customerInfo, setCustomerInfo] = useState({
     name: '',
     phone: '',
@@ -257,7 +262,7 @@ export default function CustomerStore({ merchantId, onBack, onMerchantAccess }: 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <Button variant="ghost" onClick={onBack} className="mr-4">
+              <Button variant="ghost" onClick={handleBack} className="mr-4">
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Retour
               </Button>
@@ -468,7 +473,7 @@ export default function CustomerStore({ merchantId, onBack, onMerchantAccess }: 
 
       {/* Dialog de commande */}
       <Dialog open={isCheckoutOpen} onOpenChange={setIsCheckoutOpen}>
-        <DialogContent className="max-w-md backdrop-blur bg-white/90 dark:bg-gray-900/80">
+        <DialogContent className="max-w-md backdrop-blur dark:bg-gray-900/80">
           <DialogHeader>
             <DialogTitle>Finaliser votre commande</DialogTitle>
             <DialogDescription>
