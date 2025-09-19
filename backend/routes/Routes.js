@@ -1,10 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const { signIn, signUpCommercant, checkAndGetUserByToken } = require("../controllers/userController");
-const { createLivreur, getLivreurById, updateLivreur, deleteLivreur, getAllLivreurs, getAllLivreursByCommercants } = require("../controllers/livreurController");
+const { createLivreur, getLivreurById, updateLivreur, deleteLivreur, getAllLivreurs, getAllLivreursByCommercants, recupererCommandes } = require("../controllers/livreurController");
 const authMiddleware = require("../Middlewares/Authorize");
 const { getCategoriesByCommercant, createCategorie, getOneCategorie, getProductsByCategorie, updateCategorie, deleteCategorie } = require("../controllers/categorieController");
 const { getOneProduct, getProductsByCommercant, createProduct, updateProducts, updateStockProducts, deleteProducts } = require("../controllers/productController");
+const { getLivraisonByLivreur} = require("../controllers/livraisonController")
+
 
 router.post("/signup", signUpCommercant);
 router.post("/signin", signIn);
@@ -16,6 +18,8 @@ router.put("/updatelivreur/:id", updateLivreur);
 router.delete("/deletelivreur/:id", deleteLivreur);
 router.get("/getAlllivreurs", getAllLivreurs);
 router.get("/getAlllivreursByCommercants",authMiddleware.authenticate, getAllLivreursByCommercants);
+//router.get("/:id/livraisons", recupererCommandes);
+router.get("/getLivraisonByLivreur/:livreurId", getLivraisonByLivreur);
 
 //relatives au categorie
 // 📦 Récupérer tous les produits du commerçant

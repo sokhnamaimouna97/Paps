@@ -1,170 +1,1309 @@
-[2025-07-31T19:51:13.470] [INFO] default - Serveur démarré
-[2025-07-31T19:51:13.471] [ERROR] default - Une erreur est survenue
-[2025-07-31T19:53:03.653] [INFO] default - Serveur démarré
-[2025-07-31T19:53:03.654] [ERROR] default - Une erreur est survenue
-[2025-07-31T19:54:21.191] [INFO] default - Serveur démarré
-[2025-07-31T19:54:21.192] [ERROR] default - Une erreur est survenue
-[2025-07-31T20:15:33.315] [INFO] default - Serveur démarré
-[2025-07-31T20:15:33.316] [ERROR] default - Une erreur est survenue
-[2025-07-31T20:17:47.283] [INFO] default - Serveur démarré sur le port 5000
-[2025-07-31T20:19:11.702] [INFO] default - Serveur démarré sur le port 5000 - Prêt pour les tests Postman !
-[2025-07-31T20:22:42.757] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-07-31T20:22:42.756Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.331610709}
-[2025-07-31T20:22:53.767] [INFO] detailed - {
-  "method": "POST",
-  "url": "/api/createProduct",
+[2025-09-03T15:35:48.932] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-03T15:35:48.930Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.8573967}
+[2025-09-03T15:38:47.241] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
   "status": 500,
-  "duration": "114ms",
-  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "duration": "10ms",
+  "user": "Non authentifié",
   "ip": "::1",
-  "userAgent": "PostmanRuntime/7.44.1",
-  "timestamp": "2025-07-31T20:22:53.767Z",
-  "body": {
-    "nom": "iPhone 15 Pro",
-    "prix": "99",
-    "image": "iphone15pro.jpg",
-    "stock": "hgh",
-    "categorie_id": "688bc2eb30725a959aeae3d4"
-  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:38:47.241Z",
   "query": {},
-  "params": {},
-  "responseSize": 168,
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
   "responseData": {
-    "message": "Erreur lors de la création du produit",
-    "error": "Produit validation failed: stock: Cast to Number failed for value \"hgh\" (type string) at path \"stock\""
+    "success": false,
+    "message": "Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Livreur\""
   }
 }
-[2025-07-31T20:22:53.767] [INFO] detailed - {
-  "method": "POST",
-  "url": "/api/createProduct",
+[2025-09-03T15:38:47.244] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
   "status": 500,
-  "duration": "114ms",
-  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "duration": "13ms",
+  "user": "Non authentifié",
   "ip": "::1",
-  "userAgent": "PostmanRuntime/7.44.1",
-  "timestamp": "2025-07-31T20:22:53.767Z",
-  "body": {
-    "nom": "iPhone 15 Pro",
-    "prix": "99",
-    "image": "iphone15pro.jpg",
-    "stock": "hgh",
-    "categorie_id": "688bc2eb30725a959aeae3d4"
-  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:38:47.244Z",
   "query": {},
-  "params": {},
-  "responseSize": 168,
-  "responsePreview": "{\"message\":\"Erreur lors de la création du produit\",\"error\":\"Produit validation failed: stock: Cast t"
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responsePreview": "{\"success\":false,\"message\":\"Cast to ObjectId failed for value \\\"1\\\" (type string) at path \\\"_id\\\" fo"
 }
-[2025-07-31T20:23:26.044] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-07-31T20:23:26.044Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.247686458}
-[2025-07-31T20:23:35.728] [INFO] detailed - {
-  "method": "POST",
-  "url": "/api/createProduct",
-  "status": 201,
-  "duration": "347ms",
-  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+[2025-09-03T15:39:06.876] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
+  "status": 500,
+  "duration": "2ms",
+  "user": "Non authentifié",
   "ip": "::1",
-  "userAgent": "PostmanRuntime/7.44.1",
-  "timestamp": "2025-07-31T20:23:35.728Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:39:06.876Z",
+  "query": {},
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responseData": {
+    "success": false,
+    "message": "Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Livreur\""
+  }
+}
+[2025-09-03T15:39:06.877] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
+  "status": 500,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:39:06.877Z",
+  "query": {},
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responsePreview": "{\"success\":false,\"message\":\"Cast to ObjectId failed for value \\\"1\\\" (type string) at path \\\"_id\\\" fo"
+}
+[2025-09-03T15:41:12.150] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-03T15:41:12.149Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.7760216}
+[2025-09-03T15:41:27.602] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
+  "status": 500,
+  "duration": "8ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:41:27.602Z",
+  "query": {},
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responseData": {
+    "success": false,
+    "message": "Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Livreur\""
+  }
+}
+[2025-09-03T15:41:27.605] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
+  "status": 500,
+  "duration": "10ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:41:27.604Z",
+  "query": {},
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responsePreview": "{\"success\":false,\"message\":\"Cast to ObjectId failed for value \\\"1\\\" (type string) at path \\\"_id\\\" fo"
+}
+[2025-09-03T15:41:53.097] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
+  "status": 500,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:41:53.097Z",
+  "query": {},
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responseData": {
+    "success": false,
+    "message": "Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Livreur\""
+  }
+}
+[2025-09-03T15:41:53.101] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/1/livraisons",
+  "status": 500,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:41:53.100Z",
+  "query": {},
+  "params": {
+    "id": "1"
+  },
+  "responseSize": 121,
+  "responsePreview": "{\"success\":false,\"message\":\"Cast to ObjectId failed for value \\\"1\\\" (type string) at path \\\"_id\\\" fo"
+}
+[2025-09-03T15:47:39.727] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "479ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:47:39.726Z",
+  "query": {},
+  "params": {},
+  "responseSize": 946,
+  "responseData": [
+    {
+      "livraisons": [],
+      "_id": "688ba370b4f321a0e5e29cdc",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba397a8ef10c336e06d49",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba3a3a8ef10c336e06d4d",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba4d8bf6026dc4618deb4",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba4ddbf6026dc4618deb8",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "commercant_id": null,
+      "__v": 0
+    }
+  ]
+}
+[2025-09-03T15:47:39.729] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "483ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:47:39.729Z",
+  "query": {},
+  "params": {},
+  "responseSize": 946,
+  "responsePreview": "[{\"livraisons\":[],\"_id\":\"688ba370b4f321a0e5e29cdc\",\"commercant_id\":{\"_id\":\"688ba2b9ba4384daa466b2a4\""
+}
+[2025-09-03T15:47:39.901] [INFO] detailed - {
+  "method": "GET",
+  "url": "/favicon.ico",
+  "status": 404,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:47:39.901Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1410,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /favicon.ico non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-03T15:47:39.899Z"
+    },
+    "debug": {
+      "stack": "Error: Route /favicon.ico non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\index.js:74:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\index.js:59:5\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:297:9",
+      "url": "/favicon.ico",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-03T15:47:39.903] [INFO] detailed - {
+  "method": "GET",
+  "url": "/favicon.ico",
+  "status": 404,
+  "duration": "7ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:47:39.903Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1410,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /favicon.ico non trouvée\",\"status\":404,\"timestamp\":\"2025-"
+}
+[2025-09-03T15:49:58.958] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "76ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:49:58.958Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 118,
+  "responseData": {
+    "success": false,
+    "message": "Schema hasn't been registered for model \"Livraison\".\nUse mongoose.model(name, schema)"
+  }
+}
+[2025-09-03T15:49:58.960] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "77ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:49:58.960Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 118,
+  "responsePreview": "{\"success\":false,\"message\":\"Schema hasn't been registered for model \\\"Livraison\\\".\\nUse mongoose.mod"
+}
+[2025-09-03T15:50:24.447] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "74ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:50:24.447Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 118,
+  "responseData": {
+    "success": false,
+    "message": "Schema hasn't been registered for model \"Livraison\".\nUse mongoose.model(name, schema)"
+  }
+}
+[2025-09-03T15:50:24.451] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "78ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T15:50:24.451Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 118,
+  "responsePreview": "{\"success\":false,\"message\":\"Schema hasn't been registered for model \\\"Livraison\\\".\\nUse mongoose.mod"
+}
+[2025-09-03T16:03:00.891] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-03T16:03:00.889Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.8085941}
+[2025-09-03T16:03:17.126] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 200,
+  "duration": "93ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T16:03:17.126Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 32,
+  "responseData": {
+    "success": true,
+    "livraisons": []
+  }
+}
+[2025-09-03T16:03:17.128] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 200,
+  "duration": "95ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T16:03:17.128Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 32,
+  "responsePreview": "{\"success\":true,\"livraisons\":[]}"
+}
+[2025-09-03T16:19:47.444] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "345ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:19:47.443Z",
   "body": {
-    "nom": "iPhone 15 Pro",
-    "prix": "99",
-    "image": "iphone15pro.jpg",
-    "stock": 20,
-    "categorie_id": "688bc2eb30725a959aeae3d4"
+    "nom": "thiam",
+    "prénom": "sokhna",
+    "telephone": "771090593",
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
   },
   "query": {},
   "params": {},
-  "responseSize": 259,
+  "responseSize": 326,
   "responseData": {
-    "message": "Votre produit a été créé avec succès",
-    "produit": {
-      "nom": "iPhone 15 Pro",
-      "prix": 99,
-      "image": "iphone15pro.jpg",
-      "stock": 20,
-      "categorie_id": {
-        "_id": "688bc2eb30725a959aeae3d4",
-        "nom": "Électronique & Gadgets"
-      },
-      "_id": "688bd0c751f52f52f96c9394",
+    "message": "Commerçant et compte utilisateur créés avec succès.",
+    "user": {
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "thiamsokhna@gmail.com",
+      "password": "$2b$10$WDMQB.YC9lARtUVLIJFIHO/GgGz1swl27c.28.urmeAkNR.fARA0i",
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "_id": "68b86aa31c27940f919e0235",
       "__v": 0
     }
   }
 }
-[2025-07-31T20:23:35.729] [INFO] detailed - {
+[2025-09-03T16:19:47.446] [INFO] detailed - {
   "method": "POST",
-  "url": "/api/createProduct",
+  "url": "/api/signup",
   "status": 201,
   "duration": "348ms",
-  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "user": "Non authentifié",
   "ip": "::1",
-  "userAgent": "PostmanRuntime/7.44.1",
-  "timestamp": "2025-07-31T20:23:35.728Z",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:19:47.446Z",
   "body": {
-    "nom": "iPhone 15 Pro",
-    "prix": "99",
-    "image": "iphone15pro.jpg",
-    "stock": 20,
-    "categorie_id": "688bc2eb30725a959aeae3d4"
+    "nom": "thiam",
+    "prénom": "sokhna",
+    "telephone": "771090593",
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
   },
   "query": {},
   "params": {},
-  "responseSize": 259,
-  "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"iPhone 15 Pro\",\"prix\":99,\"image\""
+  "responseSize": 326,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès.\",\"user\":{\"nom\":\"thiam\",\"role\":\"comme"
 }
-[2025-07-31T20:26:06.960] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-07-31T20:26:06.960Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.243615375}
-[2025-07-31T20:26:34.590] [INFO] detailed - {
+[2025-09-03T16:21:36.314] [INFO] detailed - {
   "method": "POST",
-  "url": "/api/createProduct",
-  "status": 201,
-  "duration": "2358ms",
-  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "214ms",
+  "user": "Non authentifié",
   "ip": "::1",
-  "userAgent": "PostmanRuntime/7.44.1",
-  "timestamp": "2025-07-31T20:26:34.589Z",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:21:36.314Z",
   "body": {
-    "nom": "iPhone 15 Pro",
-    "prix": "99",
-    "image": "iphone15pro.jpg",
-    "stock": 20,
-    "categorie_id": "688bc2eb30725a959aeae3d4"
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
   },
   "query": {},
   "params": {},
-  "responseSize": 259,
+  "responseSize": 541,
   "responseData": {
-    "message": "Votre produit a été créé avec succès",
-    "produit": {
-      "nom": "iPhone 15 Pro",
-      "prix": 99,
-      "image": "iphone15pro.jpg",
-      "stock": 20,
-      "categorie_id": {
-        "_id": "688bc2eb30725a959aeae3d4",
-        "nom": "Électronique & Gadgets"
-      },
-      "_id": "688bd179d9f1551249f37386",
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTY0OTYsImV4cCI6MTc1NzUyMTI5Nn0.6YYb2riD2qTHVFU2kJuTV1dmrbBaHCCqS6Bwk9PBnGw",
+    "user": {
+      "_id": "68b86aa31c27940f919e0235",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "thiamsokhna@gmail.com",
+      "password": "$2b$10$WDMQB.YC9lARtUVLIJFIHO/GgGz1swl27c.28.urmeAkNR.fARA0i",
+      "commercant_id": "68b86aa31c27940f919e0233",
       "__v": 0
     }
   }
 }
-[2025-07-31T20:26:34.591] [INFO] detailed - {
+[2025-09-03T16:21:36.316] [INFO] detailed - {
   "method": "POST",
-  "url": "/api/createProduct",
-  "status": 201,
-  "duration": "2360ms",
-  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "216ms",
+  "user": "Non authentifié",
   "ip": "::1",
-  "userAgent": "PostmanRuntime/7.44.1",
-  "timestamp": "2025-07-31T20:26:34.591Z",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:21:36.316Z",
   "body": {
-    "nom": "iPhone 15 Pro",
-    "prix": "99",
-    "image": "iphone15pro.jpg",
-    "stock": 20,
-    "categorie_id": "688bc2eb30725a959aeae3d4"
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
   },
   "query": {},
   "params": {},
-  "responseSize": 259,
-  "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"iPhone 15 Pro\",\"prix\":99,\"image\""
+  "responseSize": 541,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMW"
+}
+[2025-09-03T16:31:05.300] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "76ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:31:05.300Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-03T16:31:05.301] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "77ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:31:05.301Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-03T16:31:28.245] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "137ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:31:28.245Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTcwODgsImV4cCI6MTc1NzUyMTg4OH0.qVMu-XLOvRT8ykKwd6xrxj0yPvFCTay-_iFXts2Md5Y",
+    "user": {
+      "_id": "68b86aa31c27940f919e0235",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "thiamsokhna@gmail.com",
+      "password": "$2b$10$WDMQB.YC9lARtUVLIJFIHO/GgGz1swl27c.28.urmeAkNR.fARA0i",
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "__v": 0
+    }
+  }
+}
+[2025-09-03T16:31:28.247] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "139ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:31:28.247Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMW"
+}
+[2025-09-03T16:31:52.757] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "72ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:31:52.757Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-03T16:31:52.758] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "73ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:31:52.758Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-03T16:32:06.313] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "164ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:32:06.313Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTcxMjYsImV4cCI6MTc1NzUyMTkyNn0.R-pNCS-5RbRT0aK2JthRb9JLx-6Zq_y-8Lr6aE7uUpg",
+    "user": {
+      "_id": "68b86aa31c27940f919e0235",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "thiamsokhna@gmail.com",
+      "password": "$2b$10$WDMQB.YC9lARtUVLIJFIHO/GgGz1swl27c.28.urmeAkNR.fARA0i",
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "__v": 0
+    }
+  }
+}
+[2025-09-03T16:32:06.314] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "166ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:32:06.314Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMW"
+}
+[2025-09-03T16:32:44.788] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "72ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:32:44.788Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-03T16:32:44.789] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "73ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:32:44.789Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-03T16:33:02.601] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-03T16:33:02.599Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.8013372}
+[2025-09-03T16:33:12.561] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "84ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:33:12.560Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-03T16:33:12.562] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "86ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:33:12.562Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-03T16:33:30.244] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "140ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:33:30.244Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTcyMTAsImV4cCI6MTc1NzUyMjAxMH0._kFHtENWcz8Tof2xenJmkI3afvArTs_BiMnnI_hFw3E",
+    "user": {
+      "_id": "68b86aa31c27940f919e0235",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "thiamsokhna@gmail.com",
+      "password": "$2b$10$WDMQB.YC9lARtUVLIJFIHO/GgGz1swl27c.28.urmeAkNR.fARA0i",
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "__v": 0
+    }
+  }
+}
+[2025-09-03T16:33:30.246] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "142ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:33:30.246Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMW"
+}
+[2025-09-03T16:33:32.575] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "136ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:33:32.575Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTcyMTIsImV4cCI6MTc1NzUyMjAxMn0.Xh018pp0IskVl4tuk7sVNvBEbNm3G2WvhWU7tSuDsFA",
+    "user": {
+      "_id": "68b86aa31c27940f919e0235",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "thiamsokhna@gmail.com",
+      "password": "$2b$10$WDMQB.YC9lARtUVLIJFIHO/GgGz1swl27c.28.urmeAkNR.fARA0i",
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "__v": 0
+    }
+  }
+}
+[2025-09-03T16:33:32.577] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "138ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:33:32.577Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 541,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMW"
+}
+[2025-09-03T16:34:00.198] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "79ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:34:00.198Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-03T16:34:00.199] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "80ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:34:00.199Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-03T16:35:16.297] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-03T16:35:16.296Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.7637044}
+[2025-09-03T16:37:46.884] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/getAlllivreurs",
+  "status": 404,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:37:46.884Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1449,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAlllivreurs non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-03T16:37:46.881Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAlllivreurs non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\index.js:74:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAlllivreurs",
+      "method": "POST",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-03T16:37:46.885] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/getAlllivreurs",
+  "status": 404,
+  "duration": "7ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:37:46.885Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1449,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAlllivreurs non trouvée\",\"status\":404,\"timestamp\""
+}
+[2025-09-03T16:38:02.117] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "177ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:38:02.116Z",
+  "query": {},
+  "params": {},
+  "responseSize": 946,
+  "responseData": [
+    {
+      "livraisons": [],
+      "_id": "688ba370b4f321a0e5e29cdc",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba397a8ef10c336e06d49",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba3a3a8ef10c336e06d4d",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba4d8bf6026dc4618deb4",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "688ba4ddbf6026dc4618deb8",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "livraisons": [],
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "commercant_id": null,
+      "__v": 0
+    }
+  ]
+}
+[2025-09-03T16:38:02.120] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "182ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T16:38:02.120Z",
+  "query": {},
+  "params": {},
+  "responseSize": 946,
+  "responsePreview": "[{\"livraisons\":[],\"_id\":\"688ba370b4f321a0e5e29cdc\",\"commercant_id\":{\"_id\":\"688ba2b9ba4384daa466b2a4\""
+}
+[2025-09-03T16:53:14.685] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 200,
+  "duration": "20352ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T16:53:14.685Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 32,
+  "responseData": {
+    "success": true,
+    "livraisons": []
+  }
+}
+[2025-09-03T16:53:14.687] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 200,
+  "duration": "20354ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T16:53:14.687Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 32,
+  "responsePreview": "{\"success\":true,\"livraisons\":[]}"
+}
+[2025-09-03T17:08:42.664] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 200,
+  "duration": "1041ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T17:08:42.663Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 32,
+  "responseData": {
+    "success": true,
+    "livraisons": []
+  }
+}
+[2025-09-03T17:08:42.665] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 200,
+  "duration": "1043ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T17:08:42.665Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 32,
+  "responsePreview": "{\"success\":true,\"livraisons\":[]}"
+}
+[2025-09-03T17:47:44.952] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "30007ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T17:47:44.952Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 94,
+  "responseData": {
+    "success": false,
+    "message": "getaddrinfo ENOTFOUND ac-u2zzusf-shard-00-02.9z8pmvf.mongodb.net"
+  }
+}
+[2025-09-03T17:47:44.953] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "30009ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T17:47:44.953Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 94,
+  "responsePreview": "{\"success\":false,\"message\":\"getaddrinfo ENOTFOUND ac-u2zzusf-shard-00-02.9z8pmvf.mongodb.net\"}"
+}
+[2025-09-03T17:58:02.040] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "30012ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T17:58:02.040Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 94,
+  "responseData": {
+    "success": false,
+    "message": "getaddrinfo ENOTFOUND ac-u2zzusf-shard-00-02.9z8pmvf.mongodb.net"
+  }
+}
+[2025-09-03T17:58:02.041] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/688ba370b4f321a0e5e29cdc/livraisons",
+  "status": 500,
+  "duration": "30013ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T17:58:02.041Z",
+  "query": {},
+  "params": {
+    "id": "688ba370b4f321a0e5e29cdc"
+  },
+  "responseSize": 94,
+  "responsePreview": "{\"success\":false,\"message\":\"getaddrinfo ENOTFOUND ac-u2zzusf-shard-00-02.9z8pmvf.mongodb.net\"}"
+}
+[2025-09-03T18:16:29.277] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 500,
+  "duration": "1138ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T18:16:29.277Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 394,
+  "responseData": {
+    "error": "Erreur lors de la création du livreur",
+    "details": {
+      "errors": {
+        "email": {
+          "name": "ValidatorError",
+          "message": "Path `email` is required.",
+          "properties": {
+            "message": "Path `email` is required.",
+            "type": "required",
+            "path": "email"
+          },
+          "kind": "required",
+          "path": "email"
+        }
+      },
+      "_message": "User validation failed",
+      "name": "ValidationError",
+      "message": "User validation failed: email: Path `email` is required."
+    }
+  }
+}
+[2025-09-03T18:16:29.281] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 500,
+  "duration": "1142ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T18:16:29.281Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 394,
+  "responsePreview": "{\"error\":\"Erreur lors de la création du livreur\",\"details\":{\"errors\":{\"email\":{\"name\":\"ValidatorErro"
+}
+[2025-09-03T18:17:23.654] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "347ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T18:17:23.653Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "email": "thiam@gmail.com",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 431,
+  "responseData": {
+    "message": "Livreur et utilisateur créés avec succès",
+    "livreur": {
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "livraisons": [],
+      "_id": "68b8863312048bb0ca2e0bbe",
+      "__v": 0
+    },
+    "user": {
+      "prenom": "abdou",
+      "nom": "thiam",
+      "role": "livreur",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com",
+      "password": "$2b$10$D5YxVXd8xXMmWBdEcFmE6ur4ie.pSu5vmj56lIUdFRix6VDEKkR2q",
+      "livreur_id": "68b8863312048bb0ca2e0bbe",
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "__v": 0
+    }
+  }
+}
+[2025-09-03T18:17:23.657] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "352ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-03T18:17:23.657Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "abdou",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "email": "thiam@gmail.com",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 431,
+  "responsePreview": "{\"message\":\"Livreur et utilisateur créés avec succès\",\"livreur\":{\"commercant_id\":\"68b86aa31c27940f91"
 }

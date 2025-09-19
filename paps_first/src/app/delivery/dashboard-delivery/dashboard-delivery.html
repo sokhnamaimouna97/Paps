@@ -1,0 +1,25 @@
+<div class="container">
+  <h2 routerLink="/courier/orders">📦 Mes Livraisons</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Produit</th>
+        <th>Client</th>
+        <th>Statut</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let commande of commandes">
+        <td>{{ commande.produit.nom }}</td>
+        <td>{{ commande.client.nom }}</td>
+        <td>{{ commande.statut }}</td>
+        <td>
+          <button (click)="changerStatut(commande.id, 'en cours')">🚚 En cours</button>
+          <button (click)="changerStatut(commande.id, 'livrée')">✅ Livrée</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

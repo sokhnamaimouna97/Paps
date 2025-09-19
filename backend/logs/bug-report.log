@@ -1,0 +1,137 @@
+[2025-09-03T15:47:39.897] {
+  "error": {
+    "message": "Route /favicon.ico non trouvée",
+    "stack": "Error: Route /favicon.ico non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\index.js:74:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\index.js:59:5\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:297:9",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "host": "localhost:5000",
+      "connection": "keep-alive",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-dest": "image",
+      "referer": "http://localhost:5000/api/getAlllivreurs",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-03T15:47:39.897Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-03T15:47:39.897Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-03T16:28:08.440] {
+  "error": {
+    "message": "Unexpected token 'M', ...\" \"prenom\":Madicke,\r\n\"... is not valid JSON",
+    "stack": "SyntaxError: Unexpected token 'M', ...\" \"prenom\":Madicke,\r\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+    "name": "SyntaxError"
+  },
+  "request": {
+    "method": "POST",
+    "url": "/api/signin",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "content-type": "application/json",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTY0OTYsImV4cCI6MTc1NzUyMTI5Nn0.6YYb2riD2qTHVFU2kJuTV1dmrbBaHCCqS6Bwk9PBnGw",
+      "user-agent": "PostmanRuntime/7.45.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "a14a02e5-5f9e-4258-993f-eafdfe949b2f",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-length": "176"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-03T16:28:08.440Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-03T16:28:08.440Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-03T16:28:40.542] {
+  "error": {
+    "message": "Unexpected token 'm', ...\" \"prenom\":madicke,\r\n\"... is not valid JSON",
+    "stack": "SyntaxError: Unexpected token 'm', ...\" \"prenom\":madicke,\r\n\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+    "name": "SyntaxError"
+  },
+  "request": {
+    "method": "POST",
+    "url": "/api/signin",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "content-type": "application/json",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg2YWEzMWMyNzk0MGY5MTllMDIzNSIsImVtYWlsIjoidGhpYW1zb2tobmFAZ21haWwuY29tIiwicm9sZSI6ImNvbW1lcmNhbnQiLCJpYXQiOjE3NTY5MTY0OTYsImV4cCI6MTc1NzUyMTI5Nn0.6YYb2riD2qTHVFU2kJuTV1dmrbBaHCCqS6Bwk9PBnGw",
+      "user-agent": "PostmanRuntime/7.45.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "8481df2b-dc8b-4a77-a245-5f7b5e744b71",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-length": "176"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-03T16:28:40.541Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-03T16:28:40.541Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-03T16:37:46.879] {
+  "error": {
+    "message": "Route /api/getAlllivreurs non trouvée",
+    "stack": "Error: Route /api/getAlllivreurs non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\index.js:74:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "POST",
+    "url": "/api/getAlllivreurs",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.45.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "16a8852e-91b1-4bc0-82fa-5d74ed07356f",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive",
+      "content-length": "0"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-03T16:37:46.879Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-03T16:37:46.879Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+

@@ -118,3 +118,23 @@ exports.getAllLivreursByCommercants = async (req, res) => {
     res.status(500).json({ error: "Erreur lors de la récupération des livreurs", details: err });
   }
 };
+
+
+async function getLivraisonParLivreur(livreurId) {
+  const livreur = await Livreur.findById(livreurId)
+                               .populate("livraisons") // va ramener toutes les commandes
+                               .exec();
+
+  return livreur.livraisons;
+}
+
+exports.recupererCommandes = async (req, res) => {
+  try {
+    const livreurId = req.params.id;
+    const livraisons = await getLivraisonParLivreur(livreurId);
+
+    res.json({ success: true, livraisons });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
